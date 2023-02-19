@@ -1,1 +1,1 @@
-[my blog](https://blog.wentao.me)
+[blog](https://blog.wentao.me)
