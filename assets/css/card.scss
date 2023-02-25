@@ -1,0 +1,136 @@
+---
+---
+
+html {
+  background-color: #789;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #222;
+  text-shadow: 0px 0px 30px #999;
+}
+
+#btn {
+  margin-top: 40px;
+}
+
+.links {
+  margin-top: 114px;
+  .link {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 6px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      color: #222;
+    }
+  }
+}
+
+
+.icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+  &.github { 
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIGlkPSJMYXllcl8xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWwoJLnN0MHtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDt9Cl1dPjwvc3R5bGU+PGc+PHBhdGggY2xhc3M9InN0MCIgZD0iTTI1NiwzMkMxMzIuMywzMiwzMiwxMzQuOCwzMiwyNjEuN2MwLDEwMS41LDY0LjIsMTg3LjUsMTUzLjIsMjE3LjljMTEuMiwyLjEsMTUuMy01LDE1LjMtMTEuMSAgIGMwLTUuNS0wLjItMTkuOS0wLjMtMzkuMWMtNjIuMywxMy45LTc1LjUtMzAuOC03NS41LTMwLjhjLTEwLjItMjYuNS0yNC45LTMzLjYtMjQuOS0zMy42Yy0yMC4zLTE0LjMsMS41LTE0LDEuNS0xNCAgIGMyMi41LDEuNiwzNC4zLDIzLjcsMzQuMywyMy43YzIwLDM1LjEsNTIuNCwyNSw2NS4yLDE5LjFjMi0xNC44LDcuOC0yNSwxNC4yLTMwLjdjLTQ5LjctNS44LTEwMi0yNS41LTEwMi0xMTMuNSAgIGMwLTI1LjEsOC43LTQ1LjYsMjMtNjEuNmMtMi4zLTUuOC0xMC0yOS4yLDIuMi02MC44YzAsMCwxOC44LTYuMiw2MS42LDIzLjVjMTcuOS01LjEsMzctNy42LDU2LjEtNy43YzE5LDAuMSwzOC4yLDIuNiw1Ni4xLDcuNyAgIGM0Mi44LTI5LjcsNjEuNS0yMy41LDYxLjUtMjMuNWMxMi4yLDMxLjYsNC41LDU1LDIuMiw2MC44YzE0LjMsMTYuMSwyMywzNi42LDIzLDYxLjZjMCw4OC4yLTUyLjQsMTA3LjYtMTAyLjMsMTEzLjMgICBjOCw3LjEsMTUuMiwyMS4xLDE1LjIsNDIuNWMwLDMwLjctMC4zLDU1LjUtMC4zLDYzYzAsNi4xLDQsMTMuMywxNS40LDExQzQxNS45LDQ0OS4xLDQ4MCwzNjMuMSw0ODAsMjYxLjcgICBDNDgwLDEzNC44LDM3OS43LDMyLDI1NiwzMnoiLz48L2c+PC9zdmc+) no-repeat center/100%;
+  }
+  &.blog {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDU2LjY5MyA1Ni42OTMiIGhlaWdodD0iNTYuNjkzcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1Ni42OTMgNTYuNjkzIiB3aWR0aD0iNTYuNjkzcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxwYXRoIGQ9Ik0zMy44ODYsMzIuNTQ0aC05LjM4NWMtMC44ODEsMC0xLjU5NCwwLjcwNy0xLjU5NCwxLjU4NGMwLDAuODYxLDAuNzEzLDEuNTg4LDEuNTk0LDEuNTg4aDkuMzg1ICAgYzAuODc3LDAsMS41ODYtMC43MjcsMS41ODYtMS41ODhDMzUuNDcyLDMzLjI1MSwzNC43NjMsMzIuNTQ0LDMzLjg4NiwzMi41NDR6Ii8+PHBhdGggZD0iTTI0LjUwMSwyNi4xOWg0LjYxOWMwLjg4MSwwLDEuNTk2LTAuNzI1LDEuNTk2LTEuNTk2YzAtMC44NzMtMC43MTUtMS41OTItMS41OTYtMS41OTJoLTQuNjE5ICAgYy0wLjg4MSwwLTEuNTk0LDAuNzE5LTEuNTk0LDEuNTkyQzIyLjkwNywyNS40NjYsMjMuNjIsMjYuMTksMjQuNTAxLDI2LjE5eiIvPjxwYXRoIGQ9Ik0yOC4zNDcsNS4xNTdjLTEzLjYsMC0yNC42MjUsMTEuMDIzLTI0LjYyNSwyNC42MjRjMCwxMy42LDExLjAyNCwyNC42MjUsMjQuNjI1LDI0LjYyNSAgIGMxMy42MDIsMCwyNC42MjUtMTEuMDI1LDI0LjYyNS0yNC42MjVDNTIuOTcyLDE2LjE4LDQxLjk0OCw1LjE1NywyOC4zNDcsNS4xNTd6IE00Mi4yOTYsMzQuMjUxYy0wLjAyNSw0LjU3NC0zLjc0OCw4LjMyLTguMzMsOC4zMiAgIGgtOS41N2MtNC41ODMsMC04LjMyOC0zLjc0Ni04LjMyOC04LjMyVjI0LjUzYzAtNC41ODQsMy43NDUtOC4zMzgsOC4zMjgtOC4zMzhoNS44MjRjMi4xNTIsMC4yNTYsNS4yODEsMi4wOTgsNi40MzYsNC41NDkgICBjMC4zMTYsMC42ODYsMC40ODQsMC43OTMsMC43NDYsMi44MzFjMC4xNDMsMS4wNDksMC4yMTUsMS44MjQsMC42ODQsMi4yNTRjMC42NTgsMC42LDMuMTA5LDAuMTk3LDMuNTkyLDAuNTc0bDAuMzczLDAuMjkxICAgbDAuMjIxLDAuNDU5bDAuMDc2LDAuMzY3TDQyLjI5NiwzNC4yNTF6Ii8+PC9nPjwvc3ZnPg==) no-repeat center/100%;
+  }
+}
+
+$side-color: #777;
+$thickness: 2px;
+$width: 400px;
+$height: 240px;
+$card-padding: 20px;
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  // perspective-origin: top center;
+  .card {
+    height: $height;
+    width: $width;
+    transform-style: preserve-3d; // 这个选项对于实现3d效果非常重要，没有的话，没有3d效果
+    transform-origin: top center;
+    .front {
+      box-sizing: border-box;
+      width: $width;
+      height: $height;
+      padding: $card-padding;
+      background: url(../img/ep_naturalwhite.webp) repeat;
+      background-color: #eee;
+      transform: translateZ($thickness);
+      .name {
+        font-size: 18px;
+      }
+      .work {
+        font-size: 12px;
+      }
+    }
+    .back {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: $width;
+      height: $height;
+      background: url(../img/ep_naturalwhite.webp) repeat;
+      background-color: #eee;
+      transform: translateY(-$height) rotateY(180deg);
+    }
+    .top {
+      width: $width;
+      height: $thickness;
+      background-color: $side-color;
+      transform-origin: bottom center;
+      transform: rotateX(90deg) translateY($thickness);
+    }
+    .bottom {
+      width: $width;
+      height: $thickness;
+      background-color: $side-color;
+      transform-origin: top center;
+      transform: translate3d(0, -$height, 0px) rotateX(90deg);
+    }
+    .left {
+      width: $thickness;
+      height: $height;
+      background-color: $side-color;
+      transform-origin: left center;
+      transform: translate3d(0, -(2*$height + $thickness), 0px) rotateY(-90deg);
+    }
+    .right {
+      width: $thickness;
+      height: $height;
+      background-color: $side-color;
+      transform-origin: left center;
+      transform: translate3d($width, -(3*$height+$thickness), 0px) rotateY(-90deg);
+    }
+    &.turn {
+      transform: rotateX(24deg) rotateY(75deg);
+    }
+    &.rotation {
+      transition: none;
+      transform-origin: left 40% 100px;
+      animation: 2s ease-out rotation forwards;
+    }
+    &.rotation-back {
+      animation: 2s ease-out rotation-back forwards;
+    }
+  }
+
+}
