@@ -3,6 +3,7 @@
 
 html {
   background-color: #789;
+  letter-spacing: 1px;
 }
 
 body {
@@ -62,6 +63,7 @@ $card-padding: 20px;
   align-items: center;
   perspective: 1000px;
   // perspective-origin: top center;
+  transform: scale(0.9);
   .card {
     height: $height;
     width: $width;

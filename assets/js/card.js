@@ -4,7 +4,7 @@ const keyframes = [
     offset: 0,
   },
   {
-    transform: 'rotateY(180deg) rotateX(360deg) translateZ(200px)',
+    transform: 'rotateY(180deg) rotateX(360deg) translateZ(-100px)',
     offset: 1
   }
 ];
