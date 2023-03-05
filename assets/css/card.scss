@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   color: #222;
-  text-shadow: 0px 0px 30px #999;
+  text-shadow: 0px 0px 16px #999;
 }
 
 #btn {
@@ -81,6 +81,7 @@ $card-padding: 20px;
       padding: $card-padding;
       background: url(../img/ep_naturalwhite.webp) repeat;
       background-color: #eee;
+      background-size: 200px 200px;
       transform: translateZ($thickness);
       .name {
         font-size: 18px;
@@ -97,6 +98,7 @@ $card-padding: 20px;
       height: $height;
       background: url(../img/ep_naturalwhite.webp) repeat;
       background-color: #eee;
+      background-size: 200px 200px;
       transform: translateY(-$height) rotateY(180deg);
     }
     .top {
